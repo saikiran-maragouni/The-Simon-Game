@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  3%;
+  color: #EC994B;
+}
+.Title{
+  font-family: 'Eater', cursive;
+  font-size: 6rem;
+  margin:  3%;
+  margin-top:5px;
+  color: #F24C4C;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+p{
+font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FF8C8C;
+}
+a{
+
+  color: #37E2D5;
+}
+.footer{
+  color: #37E2D5;
+}
+@media(max-width:1200px) {
+  .btn{
+    width: 150px;
+    height: 150px;
+    margin: 5px;;
+    display: inline-block;
+  }
+.Title{
+  font-size: 4rem;
+}
+#level-title {
+  font-size: 1rem;
+}
+p{
+  font-size:1rem;
+}
+
+}
